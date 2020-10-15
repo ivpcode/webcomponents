@@ -1,3 +1,8 @@
 /node_modules/
 /dist/
 /.cache/
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/webcomponents.iml
+/.idea/workspace.xml
