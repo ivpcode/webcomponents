@@ -31,7 +31,7 @@ class ElementWithInnerHtml extends LitElementWithInnerHtml {
 
         return html`
             <h1>${this.title}</h1>
-            <img src="${this.img_src}" />
+            <img src="${this.img_src}" alt="${this.title}"/>
             ${unsafeHTML(this.elParagraphHtml)}            
         `;
     }
