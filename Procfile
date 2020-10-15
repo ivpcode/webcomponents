@@ -1,1 +1,1 @@
-web: parcel index.html --port 80
+web: parcel index.html --port 8080
