@@ -1,0 +1,50 @@
+body {
+	padding: 20px;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+element-with-inner-html {
+	display:block;
+	width: 320px;
+	margin: 40px auto;
+
+	h1 {
+		font-size: 20px;
+		margin:0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: 5px;
+		min-height: 180px;
+	}
+
+	p {
+		position: relative;
+		font-size: 15px;
+		margin:0;
+		padding: 0;
+		text-align: justify;
+		height: 100px;
+		overflow-y: hidden;
+
+		.ellipsis {
+			color: #2d95e1;
+			background-color: white;
+			padding-left: 10px;
+			position: absolute;
+			right:0;
+			bottom:-5px;
+			cursor: pointer;
+			font-size: 20px;
+		}
+
+		&.expanded {
+			height: auto;
+		}
+	}
+}
+
